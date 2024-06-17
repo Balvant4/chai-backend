@@ -1,0 +1,9 @@
+//For ignore all prettier satting in these files
+
+/.vscode
+/node_modules
+./dist
+
+*.env
+.env
+.env.*
