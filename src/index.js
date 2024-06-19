@@ -26,20 +26,20 @@ connectDB()
 //second way to connect atlas
 
 /*
-(async () => {
-  try {
-    await mongoose.connect(`${process.env.MONGODB_URL}/${DB_NAME}`);
-    app.on("error", (error) => {
-      console.log("Error in express ", error);
-      throw error;
-    });
+  (async () => {
+    try {
+      await mongoose.connect(`${process.env.MONGODB_URL}/${DB_NAME}`);
+      app.on("error", (error) => {
+        console.log("Error in express ", error);
+        throw error;
+      });
 
-    app.listen(process.env.PORT, () => {
-      console.log(`app is listining on port ${process.env.PORT}`);
-    });
-  } catch (error) {
-    console.error("ERROR: ", error);
-    throw error;
-  }
-})();
-*/
+      app.listen(process.env.PORT, () => {
+        console.log(`app is listining on port ${process.env.PORT}`);
+      });
+    } catch (error) {
+      console.error("ERROR: ", error);
+      throw error;
+    }
+  })();
+  */
