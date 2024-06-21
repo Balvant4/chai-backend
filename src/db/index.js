@@ -5,7 +5,7 @@ import e from "express";
 const connectDB = async () => {
   try {
     const connenctionInstance = await mongoose.connect(
-      `${process.env.MONGODB_URL}/${DB_NAME}`
+      `${process.env.MONGODB_URL}${DB_NAME}`
     );
     console.log(
       `\n MONGODB connected !! DB HOST: ${connenctionInstance.connection.host}`
